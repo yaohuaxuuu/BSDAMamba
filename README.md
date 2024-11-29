@@ -4,12 +4,24 @@ Enhancing Medical Image Classification with BSDA-Mamba: Integrating Bayesian Ran
 # Summary
 In this study, we introduce BSDA-Mamba, a novel medical image classification approach that integrates Bayesian Random Semantic Data Augmentation (BSDA) with the MedMamba model, enhanced by residual connection blocks. BSDA augments medical image data semantically, enhancing the model's generalization ability and classification performance. MedMamba, a deep learning-based state space model, excels in capturing long-range dependencies in medical images. By incorporating residual connections, BSDA-Mamba further improves feature extraction capabilities. Through comprehensive experiments on eight medical image datasets, we demonstrate that BSDA-Mamba outperforms existing models in terms of accuracy, area under the curve, and F1-score. Our results highlight BSDA-Mamba's potential as a reliable tool for medical image analysis, particularly in handling diverse imaging modalities from X-rays to MRI.
 
+#Run
+python train.py
+
 #Related technologies
 [Vmamba](https://github.com/MzeroMiko/VMamba))
 [MedMamba](https://github.com/YubiaoYue/MedMamba)
 [BSDA](https://github.com/YaoyaoZhu19/BSDA)
 
-
+# The classification performance of BSDAMamba
+| Dataset | Task | Accuracy | AUC | F1-score |
+|:------:|:--------:|:--------:|:----------:|:----------:|
+| ***Blood*** | Multi-Class|98.1|99.9|98.0|
+| ***Brain*** | Multi-Class|96.6|99.5|95.8|
+| ***DermaMNIST*** | Multi-Class|79.9|93.2|78.5|
+| ***PneumoniaMNIST*** |Multi-Class|95.6|98.7|95.6|
+| ***PathMNIST*** |Multi-Class|89.7|88.5|88.9|
+| ***OCTMNIST*** |Multi-Class|98.3|99.9|99.8|
+| ***TissueMNIST*** |Multi-Class|92.8|99.2|93.0|
 
 # Installation
 * `pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117`
