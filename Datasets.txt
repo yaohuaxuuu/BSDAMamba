@@ -1,0 +1,3 @@
+Our dataset is mainly based on MedMNIST and Kaggle, and the acquisition method of the dataset is as follows:
+https://github.com/MedMNIST/MedMNIST
+https://www.kaggle.com/datasets/paultimothymooney/blood-cells
