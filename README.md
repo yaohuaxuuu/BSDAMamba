@@ -23,6 +23,15 @@ python train.py
 | ***OCTMNIST*** |Multi-Class|98.3|99.9|99.8|
 | ***TissueMNIST*** |Multi-Class|92.8|99.2|93.0|
 
+#The algorithm and Implementation of the BSDA-Mamba.
+![image](https://github.com/user-attachments/assets/9945c330-3b5a-434b-8704-257b062d83cb)
+
+#Datasets
+![image](https://github.com/user-attachments/assets/1e70e571-e849-40f9-8662-e681f6096619)
+![Blood Cell Images](https://www.kaggle.com/datasets/paultimothymooney/blood-cells)
+![Brain-Tumor-BRI](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+![MedMNIST](https://github.com/MedMNIST/MedMNIST)
+
 # Installation
 * `pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117`
 * `pip install packaging`
