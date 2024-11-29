@@ -42,11 +42,11 @@ Bayesian Random Semantic Data Augmentation (BSDA) is a novel, efficient, and plu
 
 ![image](https://github.com/user-attachments/assets/1e70e571-e849-40f9-8662-e681f6096619)
 
-![Blood Cell Images](https://www.kaggle.com/datasets/paultimothymooney/blood-cells)
+[Blood Cell Images](https://www.kaggle.com/datasets/paultimothymooney/blood-cells)
 
-![Brain-Tumor-BRI](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+[Brain-Tumor-BRI](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
-![MedMNIST](https://github.com/MedMNIST/MedMNIST)
+[MedMNIST](https://github.com/MedMNIST/MedMNIST)
 
 # Installation
 * `pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117`
