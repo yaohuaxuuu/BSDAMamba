@@ -10,9 +10,18 @@ python train.py
 # Related technologies
 [Vmamba](https://github.com/MzeroMiko/VMamba)
 
+VMamba is a visual state space model that addresses the transfer transition issue from one-dimensional sequence scanning to two-dimensional image scanning by introducing the Cross Scan Module (CSM), expanding the application of the S6 model in visual data while retaining the characteristics of the global receptive field. VMamba has demonstrated significant potential in various visual tasks, including image classification, object detection, and semantic segmentation, emerging as an alternative visual basic model option besides CNN and ViT.
+
+
 [MedMamba](https://github.com/YubiaoYue/MedMamba)
 
-[BSDA](https://github.com/YaoyaoZhu19/BSDA)
+MedMamba is a deep learning model specifically designed for medical image classification. It introduces a novel hybrid basic block, SS-Conv-SSM, which combines the local feature extraction ability of the convolutional layer with the capacity of the State Space Model (SSM) to capture long-range dependencies, in order to effectively model medical images of different imaging modalities. MedMamba has demonstrated competitive performance with state-of-the-art methods on multiple datasets, aiming to establish a new benchmark for medical image classification and provide insights for the development of more powerful SSM-based artificial intelligence algorithms and application systems.
+
+
+[Bayesian Random Semantic Data Augmentation](https://github.com/YaoyaoZhu19/BSDA)
+
+Bayesian Random Semantic Data Augmentation (BSDA) is a novel, efficient, and plug-and-play semantic data augmentation approach, particularly suitable for medical image classification. The core idea of BSDA is to perform simple transformations along specific directions in the feature space to achieve semantic transformation. Specifically, given a feature, BSDA regards the augmentable semantic magnitude as a random variable and estimates its distribution using the variational Bayesian method. Then, it samples the semantic magnitude and adds it to randomly selected semantic directions to achieve semantic data augmentation. This method not only increases the diversity of data but also enhances the generalization ability of the model.
+
 
 # The classification performance of BSDAMamba
 | Dataset | Task | Accuracy | AUC | F1-score |
