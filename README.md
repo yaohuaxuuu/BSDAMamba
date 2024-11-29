@@ -24,9 +24,11 @@ python train.py
 | ***TissueMNIST*** |Multi-Class|92.8|99.2|93.0|
 
 #The algorithm and Implementation of the BSDA-Mamba.
+
 ![image](https://github.com/user-attachments/assets/9945c330-3b5a-434b-8704-257b062d83cb)
 
 #Datasets
+
 ![image](https://github.com/user-attachments/assets/1e70e571-e849-40f9-8662-e681f6096619)
 ![Blood Cell Images](https://www.kaggle.com/datasets/paultimothymooney/blood-cells)
 ![Brain-Tumor-BRI](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
